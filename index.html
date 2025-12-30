@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FMCW-GPR Prototype</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="nav-container">
+    <span class="logo">FMCW-GPR</span>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#problem">Approach</a></li>
+      <li><a href="#build">Build</a></li>
+      <li><a href="#performance">Performance</a></li>
+      <li><a href="#applications">Applications</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="container">
+    <h1>FMCW Ground Penetrating Radar Prototype</h1>
+    <p>
+      An advanced 2.4 GHz FMCW radar system that reliably detects underground
+      objects through instantaneous signal processing and self-directed scanning.
+      Designed and tested as a real-world engineering solution.
+    </p>
+    <img src="images/hero.jpg" alt="Radar Concept">
+  </div>
+</section>
+
+<!-- WHY IT MATTERS -->
+<section class="section">
+  <h2>Why This Radar Matters</h2>
+
+  <div class="grid-3">
+    <div class="card">
+      <h3>Reliable Subsurface Detection</h3>
+      <p>
+        Produces clear radar data to accurately locate buried objects and estimate depth
+        without bulky hardware or excessive cost.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Portable and Easy to Deploy</h3>
+      <p>
+        Compact design suitable for field testing, academic research,
+        infrastructure inspection, and disaster response.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Validated Results</h3>
+      <p>
+        Tested under controlled conditions with measurement errors below 2%,
+        ensuring confidence across different depths.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section light">
+  <h2>About the System</h2>
+
+  <ul class="list">
+    <li>Low-cost, portable 2.4 GHz FMCW-GPR</li>
+    <li>Uses STFT signal processing and SDR digitization</li>
+    <li>Designed for practical, scalable research and real-world applications</li>
+  </ul>
+
+  <img src="images/system.png" alt="System Architecture">
+</section>
+
+<!-- MISSION & VISION -->
+<section class="section">
+  <h2>Mission & Vision</h2>
+
+  <p><strong>Mission:</strong> Democratize subsurface detection with a reliable,
+  cost-effective, and portable radar system for research, engineering, and safety.</p>
+
+  <p><strong>Vision:</strong> Become a benchmark solution for accessible radar sensing,
+  empowering universities, agencies, and industries.</p>
+</section>
+
+<!-- PROBLEM & APPROACH -->
+<section id="problem" class="section light">
+  <h2>The Problem & Our Approach</h2>
+
+  <p>
+    Ground Penetrating Radar is critical for civil engineering, disaster response,
+    and underground mapping. However, existing systems are often expensive,
+    bulky, and difficult to customize.
+  </p>
+
+  <h3>Engineering Philosophy</h3>
+  <ul class="list">
+    <li>Stage-by-stage development</li>
+    <li>Validation at every step</li>
+    <li>Design-first, test-early approach</li>
+    <li>Hardware–software co-design</li>
+    <li>Focus on repeatability and real-world deployment</li>
+  </ul>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="section">
+  <h2>How the System Works</h2>
+
+  <ol class="steps">
+    <li>FMCW chirp is transmitted to the ground</li>
+    <li>Reflections return from subsurface objects</li>
+    <li>Signals are mixed to obtain beat frequency</li>
+    <li>Data is digitized using SDR</li>
+    <li>STFT extracts depth-related components</li>
+    <li>Results are visualized as radargrams</li>
+  </ol>
+</section>
+
+<!-- BUILD -->
+<section id="build" class="section light">
+  <h2>Building the Prototype</h2>
+
+  <p>
+    The system was developed through structured stages including concept planning,
+    radar modeling, hardware integration, software development, and controlled testing.
+  </p>
+
+  <img src="images/build.jpg" alt="Prototype Build">
+</section>
+
+<!-- PERFORMANCE -->
+<section id="performance" class="section">
+  <h2>Performance & Results</h2>
+
+  <ul class="list">
+    <li>Mean error at 29 cm depth: <strong>1.433%</strong></li>
+    <li>Mean error at 72 cm depth: <strong>0.863%</strong></li>
+  </ul>
+
+  <p>
+    Waterfall and heatmap-style radargrams clearly show object presence,
+    depth, and lateral position.
+  </p>
+
+  <img src="images/radargram.png" alt="Radargram Output">
+</section>
+
+<!-- APPLICATIONS -->
+<section id="applications" class="section light">
+  <h2>Applications & Growth</h2>
+
+  <ul class="list">
+    <li>Civil infrastructure inspection</li>
+    <li>Underground utility mapping</li>
+    <li>Academic and laboratory research</li>
+    <li>Disaster search and rescue</li>
+    <li>Smart city subsurface assessment</li>
+  </ul>
+
+  <p>
+    The modular design allows future upgrades such as higher bandwidth operation,
+    advanced signal processing, machine-learning classification,
+    wireless data transmission, and autonomous navigation.
+  </p>
+
+  <img src="images/applications.png" alt="Applications">
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>
+    Developed by <strong>Omicropade</strong><br>
+    BS Electronics Engineering, Rizal Technological University
+  </p>
+  <p>© 2025 FMCW-GPR Research Project</p>
+</footer>
+
+</body>
+</html>
