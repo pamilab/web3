@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>FMCW-GPR Prototype & Results</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-fixed-top">
+<div class="container">
+<div class="navbar-header">
+<a class="navbar-brand" href="index.html">FMCW-GPR</a>
+</div>
+<ul class="nav navbar-nav navbar-right">
+<li><a href="index.html">Home</a></li>
+<li><a href="problem.html">The Problem</a></li>
+<li><a href="prototype.html">Prototype & Results</a></li>
+<li><a href="applications.html">Applications</a></li>
+</ul>
+</div>
+</nav>
+
+<section class="section" style="padding:100px 20px;">
+<div class="container">
+<h2>Building the Prototype</h2>
+
+<h4>Concept and Planning</h4>
+<p>The project began by identifying limitations in existing GPR designs and selecting FMCW radar as the optimal solution. System requirements, operating frequency, and compliance constraints were defined.</p>
+
+<h4>Design and Simulation</h4>
+<p>Radar equations, chirp characteristics, and depth-to-frequency relationships were analyzed to predict system performance before hardware construction.</p>
+
+<h4>Hardware Integration</h4>
+<p>RF modules, control units, and digitization hardware were assembled into a unified radar front-end. Mechanical mounting improved stability and ensured repeatable testing conditions.</p>
+
+<h4>Software Development</h4>
+<p>Signal acquisition and processing were implemented using GNU Radio and Python, enabling real-time visualization and automated data handling.</p>
+
+<h4>Testing and Experimental Validation</h4>
+<p>The system was evaluated using controlled experiments with metallic targets embedded at known depths under a wooden platform.</p>
+<ul>
+<li>Operating frequency: 2.4 GHz ISM band</li>
+<li>Target depths: 29 cm and 72 cm</li>
+<li>Multiple trials per depth</li>
+<li>Manual tape measurements as reference</li>
+</ul>
+
+<h4>System Demonstration</h4>
+<video controls width="100%" style="margin-top:20px;">
+<source src="assets/videos/demo.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+<h2 style="margin-top:50px;">Accuracy Performance</h2>
+<ul>
+<li>Mean error at 29 cm: 1.433%</li>
+<li>Mean error at 72 cm: 0.863%</li>
+</ul>
+<p>Processed data are displayed as waterfall and heatmap-style radargrams, enabling intuitive interpretation of subsurface features.</p>
+<img src="assets/images/radargram.jpg" alt="Radargram" width="100%" style="margin-top:20px;">
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer style="background:#0b2c4d; color:#fff; padding:30px 0; text-align:center;">
+<p>Developed by Omicropade | BS Electronics Engineering | Rizal Technological University</p>
+<p>© 2025 FMCW-GPR Research Project</p>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
