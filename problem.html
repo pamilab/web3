@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>FMCW-GPR - The Problem & Engineering Approach</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-fixed-top">
+<div class="container">
+<div class="navbar-header">
+<a class="navbar-brand" href="index.html">FMCW-GPR</a>
+</div>
+<ul class="nav navbar-nav navbar-right">
+<li><a href="index.html">Home</a></li>
+<li><a href="problem.html">The Problem</a></li>
+<li><a href="prototype.html">Prototype & Results</a></li>
+<li><a href="applications.html">Applications</a></li>
+</ul>
+</div>
+</nav>
+
+<section class="section" style="padding:100px 20px;">
+<div class="container">
+<h2>The Problem We Address</h2>
+<p>Subsurface inspection is critical in civil engineering, disaster response, and underground mapping. However, existing GPR systems are often expensive, bulky, and difficult to customize. These limitations restrict their use to large organizations and specialized operators.</p>
+
+<h3>Project Goals</h3>
+<ul>
+<li>Affordable for institutions and researchers</li>
+<li>Simple to deploy and operate</li>
+<li>Reliable in controlled and semi‑controlled environments</li>
+</ul>
+
+<h3>Our Engineering Approach</h3>
+<p>The FMCW-GPR prototype was developed using a structured, stage-by-stage engineering methodology. Each phase was validated before progressing to the next, ensuring performance consistency and minimizing integration issues.</p>
+
+<h3>Development Philosophy</h3>
+<ul>
+<li>Design-first, test-early approach</li>
+<li>Hardware–software co-design</li>
+<li>Emphasis on repeatability and measurement reliability</li>
+<li>Focus on real-world deployment considerations</li>
+</ul>
+
+<h3>How the System Works</h3>
+<ol>
+<li>A frequency-swept FMCW chirp is transmitted toward the ground.</li>
+<li>Reflected signals from subsurface objects return to the receiver.</li>
+<li>The transmitted and received signals are mixed, producing a beat frequency.</li>
+<li>Beat frequencies are digitized using an SDR platform.</li>
+<li>STFT processing converts the signal into depth-related frequency components.</li>
+<li>Results are visualized as radargrams showing depth and lateral position.</li>
+</ol>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer style="background:#0b2c4d; color:#fff; padding:30px 0; text-align:center;">
+<p>Developed by Omicropade | BS Electronics Engineering | Rizal Technological University</p>
+<p>© 2025 FMCW-GPR Research Project</p>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
